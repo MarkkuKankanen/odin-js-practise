@@ -72,8 +72,9 @@ function gameRound(playerSelection, computerSelection) {
 
 function game() {
     for (let i = 0; i<5; i++) {
+        console.log("Round number " + (i+1))
         console.log(gameRound(getPlayerChoice(), getComputerChoice()))
-        console.log(i)
+        
     }
 }
 
